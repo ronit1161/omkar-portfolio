@@ -13,6 +13,13 @@
 }
 
 @media screen and (max-width: 1200px) {
+  #profile {
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
   #desktop-nav {
     display: none;
   }
@@ -22,10 +29,6 @@
   #experience,
   .experience-details-container {
     margin-top: 2rem;
-  }
-  #profile,
-  .section-container {
-    display: block;
   }
   .arrow {
     display: none;
@@ -54,7 +57,20 @@
   }
   #profile {
     height: 83vh;
-    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
+  #profile .my-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+  }
+  .section-container{
+    display: block;
   }
   article {
     font-size: 1rem;
